@@ -1,4 +1,9 @@
 package cuentas;
+
+/**
+ * @author blanca
+ * Esta clase almacena datos de la cuenta bancaria
+ */
 public class CCuenta {
 
 
@@ -39,34 +44,61 @@ public class CCuenta {
         setSaldo(getSaldo() - cantidad);
     }
 
+    /**
+     * @return el nombre de la persona
+     */
     public String getNombre() {
         return nombre;
     }
-
+    /**
+     *
+     * @param nombre acepta y asigna el nombre de la persona
+     */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
+    /**
+     * @return la cuenta
+     */
     public String getCuenta() {
         return cuenta;
     }
 
+    /**
+     *
+     * @param cuenta acepta y asigna la cuenta
+     */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
 
+    /**
+     * @return el saldo
+     */
     public double getSaldo() {
         return saldo;
     }
 
+    /**
+     *
+     * @param saldo acepta y asigna el saldo que hay en la cuenta
+     */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
+    /**
+     * @return el tipo de interés
+     */
     public double getTipoInterés() {
         return tipoInterés;
     }
 
+    /**
+     *
+     * @param tipoInterés acepta y asigna el tipo de interés
+     */
     public void setTipoInterés(double tipoInterés) {
         this.tipoInterés = tipoInterés;
     }
